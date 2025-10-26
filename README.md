@@ -1,16 +1,20 @@
-# hypersensifit
+## 🩺 HyperSensiFit — Mobile Health Application
 
-A new Flutter project.
+**Description:**  
+HyperSensiFit is a mobile-based application designed to help users predict their risk of hypertension and receive dietary recommendations aligns with Dietary Approaches to Stop Hypertension (DASH) diet.  
+It uses a **custom K-Nearest Neighbor (KNN)** algorithm implemented directly in the app and processes health data against a locally stored **CSV dataset** — enabling full offline functionality.
+It utilized the **Hypertension-risk-model (HRM)** dataset provided by MD Raihan Khan on kaggle.
 
-## Getting Started
+**Key Features:**
+- Predicts hypertension risk using user-inputted health data  
+- KNN algorithm implemented natively 
+- Offline processing with dataset stored locally in CSV format  
+- Dietary recommendations aligns with Dietary Approaches to Stop Hypertension (DASH) diet for high-risk users  
+- Stores user health data history locally for progress tracking  
 
-This project is a starting point for a Flutter application.
+**Tech Stack:**
+- Flutter (Dart)
+- KNN Model
+- SQLite (for offline storage)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Platforms:** Android (cross-platform ready)
