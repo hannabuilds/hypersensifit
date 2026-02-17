@@ -18,3 +18,8 @@ It utilized the **Hypertension-risk-model (HRM)** dataset provided by MD Raihan 
 - SQLite (for offline storage)
 
 **Platforms:** Android (cross-platform ready)
+
+**Download links:** 
+- **Older phones:** https://github.com/hannabuilds/hypersensifit/releases/download/v1.0.0/app-armeabi-v7a-release.apk
+- **Modern phones:** https://github.com/hannabuilds/hypersensifit/releases/download/v1.0.0/app-arm64-v8a-release.apk
+- https://github.com/hannabuilds/hypersensifit/releases/download/v1.0.0/app-x86_64-release.apk
